@@ -1,0 +1,21 @@
+/****************************************************************************
+strings.rh
+Created manually
+*****************************************************************************/
+
+#define RES_ERROR		     1
+#define RES_WARNING		     2
+#define RES_BROWSE_DIR	     3
+#define RES_DET_HINT	     4
+#define RES_MB_COPYRIGHT	 5
+#define RES_MB_CLOSE_B       6
+#define RES_MB_CLOSE_C       7
+#define RES_CDIR_NOT_EXIST   8
+#define RES_NO_FOLDERS_SEL   9
+#define RES_COMPLETED       10
+#define RES_COMPLETE_EXIT   11
+#define RES_SUBDIR_CREATE   12
+#define RES_COPY_ERROR      13
+#define RES_COPY_ERROR_NR   14
+
+

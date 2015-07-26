@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008-01-26 17:31:47.093.cpp,C:\Documents and Settings\Martijn\Mijn documenten\RAD Studio\Projects\Unit1.cpp=D:\Code\Plug-in Setup\Unit1.cpp</Transaction>
+    <Transaction>2008-01-26 17:31:47.093.h,C:\Documents and Settings\Martijn\Mijn documenten\RAD Studio\Projects\Unit1.h=D:\Code\Plug-in Setup\Unit1.h</Transaction>
+    <Transaction>2008-01-26 17:31:47.093.dfm,C:\Documents and Settings\Martijn\Mijn documenten\RAD Studio\Projects\Unit1.dfm=D:\Code\Plug-in Setup\Unit1.dfm</Transaction>
+    <Transaction>2008-01-26 17:31:56.312.cbproj,C:\Documents and Settings\Martijn\Mijn documenten\RAD Studio\Projects\Project1.cbproj=D:\Code\Plug-in Setup\PluginSetup.cbproj</Transaction>
+    <Transaction>2008-01-26 17:43:07.718.cpp,D:\Code\Plug-in Setup\Unit1.cpp=</Transaction>
+    <Transaction>2008-01-26 17:43:07.718.dfm,D:\Code\Plug-in Setup\Unit1.dfm=</Transaction>
+    <Transaction>2008-01-26 18:42:30.171.cbproj,D:\Code\Plug-in Setup\nld\PISetup.cbproj=</Transaction>
+    <Transaction>2008-01-26 20:21:29.140.cbproj,D:\Code\Plug-in Setup\PluginSetup.cbproj=D:\Code\Plug-in Setup\setup.cbproj</Transaction>
+    <Transaction>2008-01-26 20:21:29.359.cbproj,D:\Code\Plug-in Setup\setup.cbproj=D:\Code\Plug-in Setup\PluginSetup.cbproj</Transaction>
+    <Transaction>2008-01-26 20:22:12.734.cbproj,D:\Code\Plug-in Setup\PluginSetup.cbproj=D:\Code\Plug-in Setup\setup.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

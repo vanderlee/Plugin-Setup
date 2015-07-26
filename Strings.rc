@@ -1,0 +1,25 @@
+/****************************************************************************
+strings.rc
+Created manually
+*****************************************************************************/
+
+#include "strings.rh"
+
+STRINGTABLE 
+{
+    RES_ERROR, 		"Error!"
+    RES_WARNING, 	"Warning!"
+    RES_COMPLETED,      "Completed!"
+    RES_BROWSE_DIR,	"Select custom folder"
+    RES_DET_HINT,       "Check the applications for which you'd like to install"
+    RES_MB_COPYRIGHT,   "Plug-in Setup © 2010 VanDerLee"
+    RES_MB_CLOSE_B,     "Are you sure you want to cancel installation?"
+    RES_MB_CLOSE_C,     "Cancel?"
+    RES_CDIR_NOT_EXIST, "The custom directory you specified does not exist.\nDo you want to continue without installing to this directory?"
+    RES_NO_FOLDERS_SEL, "You have not specified any folders."
+    RES_COMPLETE_EXIT,  "The installation has completed.\nDo you want to exit the installation program?"
+    RES_SUBDIR_CREATE,  "Subdirectory #d could not be created."
+    RES_COPY_ERROR,     "The file #f could not be copied.\nError: #e"
+    RES_COPY_ERROR_NR,  "The file #f could not be copied.\nError unknown: #e"
+}
+

@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{871d990f-4902-4c85-81fe-0c0db44872c9}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="NLD\PISetup.cbproj" />
+    <Projects Include="PISetup.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="PISetup">
+    <MSBuild Projects="PISetup.cbproj" Targets="" />
+  </Target>
+  <Target Name="PISetup:Clean">
+    <MSBuild Projects="PISetup.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PISetup:Make">
+    <MSBuild Projects="PISetup.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="PISetup">
+    <MSBuild Projects="NLD\PISetup.cbproj" Targets="" />
+  </Target>
+  <Target Name="PISetup:Clean">
+    <MSBuild Projects="NLD\PISetup.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="PISetup:Make">
+    <MSBuild Projects="NLD\PISetup.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="PISetup;PISetup" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="PISetup:Clean;PISetup:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="PISetup:Make;PISetup:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
